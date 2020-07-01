@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Random kanji</title>
+  <meta name="description" content="Japanese kanji quiz">
+  <meta name="keywords" content="Remember the Kanji">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/kanjistyle.css">
+</head>
+
+<body>
+
+<div class="overbox">
+  <div class="kanjicontainer">
+    <p id="showanswer"></p>
+  </div>
+  <div class="numbercontainer">
+    <p id="number"></p>
+  </div>
+<p id="showquestion"></p>
+</div>
+
+<div class="underbox">
+<p class="helper">Max frame:</p>
+<input type="number" name="frame" value="2200" step="1" /><br/><br>
+<button id="question" class="bottom">Keyword</button><button id="answer" class="bottom">Kanji</button>
+
+</div>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
