@@ -1,4 +1,4 @@
-# kanjiboy
+# kanjikalle
 A no-frills kanji randomiser in both directions.
 
 This is a very simple Japanese kanji quiz, based on James Heisig's book Remember the Kanji, 6th edition, as extracted from <a href="https://github.com/sdcr/heisig-kanjis/commits?author=sdcr">sdcr</a>.
